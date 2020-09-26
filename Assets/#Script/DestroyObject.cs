@@ -7,7 +7,6 @@ public class DestroyObject : MonoBehaviour
     [SerializeField] private GameObject effectObject;
     [SerializeField] private string targetTagName;
 
-
     private void OnTriggerEnter(Collider other)
     {
         if(other.transform.CompareTag(targetTagName))

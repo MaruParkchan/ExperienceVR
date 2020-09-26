@@ -27,4 +27,9 @@ public class SoundSystem : MonoBehaviour
         audioSource.clip = mainSoundClip;
         audioSource.Play();
     }
+
+    public void SoundMainStop()
+    {
+        audioSource.Stop();
+    }
 }

@@ -33,6 +33,12 @@ public class Game2Box : MonoBehaviour
         {
             FailEvent();
         }
+
+        if (other.transform.CompareTag("DestroyPlane"))
+        {
+            Debug.Log("aa");
+            SoundPlay();
+        }
     }
 
     private void SuccessEvent()

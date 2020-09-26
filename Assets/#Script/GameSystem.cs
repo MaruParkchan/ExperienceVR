@@ -11,11 +11,15 @@ public class GameSystem : MonoBehaviour
     [SerializeField] private GameObject fadeInOutObject;
     [SerializeField] private GameObject countObject;
     [SerializeField] private bool isMoveFreezeCheck;
+    [SerializeField] private SoundSystem soundSystem;
+    private AudioSource audioSource;
+    [SerializeField] private bool isMusicChange; // 메인 음악 바꿀건지 
 
     private void Awake()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         playerMovement = GameObject.FindWithTag("Player").GetComponent<Movement>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void StartGame()
@@ -24,6 +28,9 @@ public class GameSystem : MonoBehaviour
         //    return;
 
         StartCoroutine(IStartGame());
+        audioSource.Play();
+        if (isMusicChange)
+            soundSystem.SoundMainStop();
     }
 
     public void EndGame()

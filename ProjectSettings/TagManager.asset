@@ -27,6 +27,7 @@ TagManager:
   - Game3Score
   - UI
   - HowTo
+  - DestroyPlane
   layers:
   - Default
   - TransparentFX
