@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - projectile
+  - FxTemporaire
+  - Sword
+  - Ground
+  - Fire
+  - LaserPoint
+  - StartHit
+  - Box
+  - Game1Score
+  - G2Box1
+  - G2Box2
+  - Fail
+  - Game2
+  - Game3
+  - Game2Score
+  - G2Left
+  - G2Right
+  - G2Box
+  - Game3Hit
+  - Game3Enemy
+  - Game3Score
+  - UI
+  - HowTo
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Post
+  - NoPost
+  - Wall
+  - Player
+  - Laser
+  - Neon
+  - Box
+  - Event
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
